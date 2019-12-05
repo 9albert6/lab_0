@@ -24,7 +24,7 @@ public class TailsTest {
     @Test
     public void tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne() {
 
-        assertThat(tails, Matchers.hasSize(HELLO.length() + 1));
+        assertThat(tails, Matchers.hasSize(HELLO.length()));
     }
 
     @Test
