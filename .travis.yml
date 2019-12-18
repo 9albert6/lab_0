@@ -4,7 +4,7 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: "9albert6@github"
+    organization: "Albert Kułakowski"
     token:
       secure: 9albert6 # encrypted value of your token
 
