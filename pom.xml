@@ -4,14 +4,6 @@
     <groupId>edu.iis.mto</groupId>
     <artifactId>lab_0</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <sonar.projectKey>9albert6_lab_0</sonar.projectKey>
-        <sonar.organization>9albert6</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>f71f1ae5c0daa37b7a036e67aeb668fc314eac8a</sonar.login>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -24,13 +16,4 @@
             <version>1.3</version>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.6.0.1398</version>
-			</plugin>
-        </plugins>
-    </build>
 </project>
