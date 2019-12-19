@@ -12,8 +12,8 @@ pool:
 steps:
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'test1'
-    organization: '9albert6'
+    SonarCloud: 'test'
+    organization: '19albert96'
     scannerMode: 'Other'
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
